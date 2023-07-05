@@ -1,0 +1,22 @@
+.Header{
+    padding: 1em 100px;
+}
+.Header__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header__containerLogo{}
+
+.Header__logo{
+    width: 12%;
+    height: auto;
+}
+
+.Header__enlaces{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: var(--white-color);
+    margin-left: 25px;
+}
+

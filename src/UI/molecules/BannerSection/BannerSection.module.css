@@ -1,0 +1,33 @@
+.BannerSection{
+    padding: 0 100px;
+}
+.BannerSection__tittleContainer{
+
+    display: none;
+    display: flex;
+    justify-content: space-between;
+}
+.BannerSection__welcomeContainer{
+    margin-top: 1em;
+    background-color: var(--purple-color);
+    padding: 20px 25px 15px;
+    border-radius: 10px;
+    width: auto;
+}
+.BannerSection__welcomeh2{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+
+.BannerSection__welcomeH2{
+   margin-top: 2em;
+
+   display: flex;
+   justify-content: end;
+
+}
+.BannerSection__subTitle{
+
+    line-height: 100px;
+}

@@ -1,0 +1,32 @@
+.Marquee{
+    width: 100px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+}
+.Marquee__contentText
+{
+    color: var(--black-color);
+    background-color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 81px;
+    display: flex;
+    font-weight: 600;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    animation: verticalScrolling 30s linear infinite;
+}
+
+@keyframes verticalScrolling {
+    0% {    
+        transform: translateY(0%);
+        }
+    100% {transform: translateY(100%);}
+}

@@ -1,0 +1,12 @@
+.SeparadorHr{
+    padding: 0 100px;
+    margin-top: 10px;
+}
+.SeparadorHr_hr{
+    color: var(--white-color);
+    opacity: 0.2;
+    flex: 10;
+}
+.SeparadorHr_banner{
+    margin-top: -25px;
+}

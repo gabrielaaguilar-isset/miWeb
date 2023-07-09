@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Técnico Superior Universitario en Informática",
+        "name": "<span class='purpleUnderlined targetsSpan'>Técnico Superior Universitario en Informática </span>",
         "company": "Instituto Universitario de Tecnologia Antonio Ricaurte",
-        "id-credencial": false,
-        "url": false   
+        "id_credencial": "",
+        "url": ""   
     },
     {
         "id": 2,
-        "name": "JavaScript Moderno Guia Definitiva Construye +20 Proyectos",
+        "name": "<span class='purpleUnderlined targetsSpan'>JavaScript Moderno Guia Definitiva Construye +20 Proyectos </span>",
         "company": "Udemy",
-        "id-credencial": "UC-42004e08-0dcc-4cce-ab9f-13ced17ffd44",
+        "id_credencial": "ID CREDENCIAL: <span class='purpleUnderlined targetsSpan'>UC-42004e08-0dcc-4cce-ab9f-13ced17ffd44</span>",
         "url": "https://www.udemy.com/certificate/UC-42004e08-0dcc-4cce-ab9f-13ced17ffd44/"
     },
     {
         "id": 3,
-        "name": "Curso de Introducción al Desarrollo web: HTML y CSS (2/2)",
+        "name": "<span class='purpleUnderlined targetsSpan'>Curso de Introducción al Desarrollo web: HTML y CSS (2/2)</span>",
         "company": "Google",
-        "id-credencial": "VSY JT7 42M",
+        "id_credencial": "ID CREDENCIAL: <span class='purpleUnderlined targetsSpan'> VSY JT7 42M </span>",
         "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code"      
     },
     {
         "id": 4,
-        "name": " [2021] Git y GitHub 100% Práctico",
+        "name": "<span class='purpleUnderlined targetsSpan'>[2021] Git y GitHub 100% Práctico </span>",
         "company": "Udemy",
-        "id-credencial": "UC-0a82523f-c511-43bf-99bd-0ccb89775852",
+        "id_credencial": "ID CREDENCIAL: <span class='purpleUnderlined targetsSpan'>UC-0a82523f-c511-43bf-99bd-0ccb89775852</span>",
         "url": "https://www.udemy.com/certificate/UC-0a82523f-c511-43bf-99bd-0ccb89775852/"      
     },
     {
         "id": 5,
-        "name": "Competencias digitales para profesionales",
+        "name": "<span class='purpleUnderlined targetsSpan'>Competencias digitales para profesionales</span>",
         "company": "Google",
-        "id-credencial": "H3F UF5 FJZ",
+        "id_credencial": "ID CREDENCIAL: <span class='purpleUnderlined targetsSpan'> H3F UF5 FJZ </span>",
         "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code"       
     },
     {
         "id": 5,
-        "name": "Curso de Introducción al Desarrollo web: HTML y CSS (1/2)",
+        "name": "<span class='purpleUnderlined targetsSpan'>Curso de Introducción al Desarrollo web: HTML y CSS (1/2) </span>",
         "company": "Google",
-        "id-credencial": "XYH PSU JAU",
+        "id_credencial": "ID CREDENCIAL: <span class='purpleUnderlined targetsSpan'>XYH PSU JAU </span>",
         "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code"       
     }
 ]

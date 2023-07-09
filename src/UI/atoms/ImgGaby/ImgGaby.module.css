@@ -1,0 +1,15 @@
+.target__gabrielaContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    right: 100px;
+    position: absolute;
+    margin-top: -15px;
+}
+.gabyImg{
+    width: 181px;
+    margin-top: -163px;
+    margin-right: -1px;
+    border-radius:0 0 14px 0;
+   
+}

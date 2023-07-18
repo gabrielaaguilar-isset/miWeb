@@ -22,25 +22,22 @@ const TargetsWorks = () => {
                     console.log(content.teconologias)
                     return(
                         <div key={index} className={styles.TargetsWorks_container}>
+                           
                             <div className={`${styles.targetsWorks_items} ${styles.itemp} ${styles.tecnologiasItems}`}>
-                            <p className={`${styles.targetsWorks_p} whiteUnderlined`} ><span className={`${styles.targetsWorks_punto} purpleUnderlined`}>&nbsp; &bull;</span>{`${content.teconologias} `}  </p>
-                                {/* {
-                                    content.teconologias?.map((item, index) =>{
-                                        return (
-                                            <p className={`${styles.targetsWorks_p} whiteUnderlined`} key={index}>{item}</p>
-                                        )
-                                    })
-                                } */}
+                              
+                                <p className={`${styles.targetsWorks_p} whiteUnderlined`} > {content.teconologias}  </p>
                                 
                             </div>
+
                             <div className={styles.targetsWorks_items}>
-                                <img src="/blog-del-rebobinador.png" alt="blog del rebobinador" className={styles.works_img} />
+                                <img src={content.img_Proyect} alt={content.nameProject} className={styles.works_img} />
                             </div>
+                            
                             <div className={`${styles.targetsWorks_items} img--works`} >
                             {
-                                    content.teconologias?.map((item, index) =>{
+                                    content.teconologias_fotos?.map((item, index) =>{
                                         return (
-                                            <img key={index} src={`/${item}.png`} alt={item} className={styles.targetsWorks_img}/>
+                                            <img key={index} src={item} alt={item} className={styles.targetsWorks_img}/>
                                         )
                                     })
                                 }

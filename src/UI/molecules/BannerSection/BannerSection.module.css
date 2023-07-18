@@ -31,3 +31,23 @@
 
     line-height: 100px;
 }
+
+@media (max-width: 1440px){
+    .BannerSection__welcomeh2{
+    font-size: 60px;
+    }
+}
+
+@media (max-width: 786px){
+    .BannerSection{
+        padding: 0 50px;
+    }
+    .BannerSection__welcomeContainer{
+        padding: 12px 12px 12px;
+    }
+}
+@media(max-width: 425px){
+    .BannerSection{
+        padding: 0 25px;
+    }
+}

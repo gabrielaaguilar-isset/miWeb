@@ -10,3 +10,27 @@
 .SeparadorHr_banner{
     margin-top: -25px;
 }
+
+@media (max-width: 1440px){
+    .SeparadorHr_banner{
+        margin-top: 3px;
+    }
+}
+@media (max-width: 1024px){
+    .SeparadorHr{
+        padding: 0 50px;
+        margin-top: 5px;
+    }
+
+}
+@media (max-width: 786px){
+    SeparadorHr{
+        margin-top: -4px;
+    }
+}
+@media (max-width: 425px){
+    .SeparadorHr{
+        padding: 0 25px;
+    }
+
+}

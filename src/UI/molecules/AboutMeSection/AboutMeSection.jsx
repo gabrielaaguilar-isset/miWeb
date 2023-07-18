@@ -25,7 +25,7 @@ const AboutMeSection = () => {
     <div className={styles.AboutMeSection}>
       <div className={styles.AboutMeSection__Description}>
         <div className={styles.AboutMeSection__DescriptionText}>
-          <Paragraph customClass="whiteUnderlined whiteP" text="Soy una desarrolladora web de 22 años especializada en crear soluciones digitales innovadoras y atractivas. Manejo las últimas tecnologías y herramientas del mercado, como React, Express, Next Js, MongoDB, MySQL, WordPress, Woocommerce, E-learning y conocimientos basico con PHP y Photoshop. Me apasiona la programación, el diseño y el aprendizaje continuo. Me gusta trabajar en equipo y enfrentarme a nuevos retos. Mi objetivo es seguir creciendo como desarrolladora web y ofrecer soluciones que satisfagan las necesidades y expectativas de mis clientes."/>
+          <Paragraph customClass="whiteUnderlined whiteP" text="Soy una desarrolladora web de 23 años especializada en crear soluciones digitales innovadoras y atractivas. Manejo las últimas tecnologías y herramientas del mercado, como React, Express, Next Js, MongoDB, MySQL, WordPress, Woocommerce, E-learning y conocimientos basico con PHP y Photoshop. Me apasiona la programación, el diseño y el aprendizaje continuo. Me gusta trabajar en equipo y enfrentarme a nuevos retos. Mi objetivo es seguir creciendo como desarrolladora web y ofrecer soluciones que satisfagan las necesidades y expectativas de mis clientes."/>
           
         </div>
         <div className={styles.AboutMeSection__ContentImages}>

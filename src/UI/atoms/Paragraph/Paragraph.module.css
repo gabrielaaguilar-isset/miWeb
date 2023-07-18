@@ -3,3 +3,9 @@
     font-size: 23px;
 }
 
+@media (max-width: 1440px){
+    .Paragraph{
+        font-size: 21px;
+    }
+}
+

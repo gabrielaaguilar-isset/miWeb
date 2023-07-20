@@ -1,0 +1,25 @@
+.ButtonsCards{
+    z-index: 444;
+ 
+}
+
+.ButtonsCards img{
+    width: 47px;
+}
+.buttonAnterior{
+    transform: scaleX(-1);
+}
+.ButtonsCards button{
+    background-color: #ff000000;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media (max-width: 425px){
+    .ButtonsCards{
+        z-index: 444;
+        margin-top: -56px;
+    }
+}

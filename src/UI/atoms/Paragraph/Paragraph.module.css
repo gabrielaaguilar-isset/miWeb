@@ -8,4 +8,16 @@
         font-size: 21px;
     }
 }
+@media (max-width: 768px){
+    .Paragraph{
+        font-size: 19px;
+        
+    }
+}
+@media (max-width: 425px){
+    .Paragraph{
+        font-size: 18px;
+        text-align: justify;
+    }
+}
 

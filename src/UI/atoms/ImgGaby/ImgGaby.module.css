@@ -5,11 +5,25 @@
     right: 100px;
     position: absolute;
     margin-top: -15px;
+    z-index: 0;
 }
 .gabyImg{
     width: 181px;
-    margin-top: -163px;
+    margin-top: -135px;
     margin-right: -1px;
     border-radius:0 0 14px 0;
    
+}
+@media (max-width:768px){
+
+    .gabyImg{
+        margin-right: -51px;
+    }
+}
+@media (max-width: 425px){
+    .gabyImg {
+        width: 160px;
+        margin-top: -164px;
+        margin-right: -76px;
+    }
 }

@@ -5,7 +5,7 @@ import styles from './WoksSection.module.css'
 const WoksSection = () => {
   return (
     <div className={styles.WoksSection}>
-        <MarqueeH />
+        <MarqueeH text="TRABAJOS Y PROYECTOS"/>
         <TargetsWorks />
     </div>
   )

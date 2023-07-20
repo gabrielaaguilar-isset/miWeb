@@ -18,9 +18,10 @@
     }
 }
 
-@media(max-width: 425px){
+@media(max-width: 430px){
     .SubTitle{
         font-size: 44px;
         line-height: 39px;
+        margin-top: 30px;
     }
 }

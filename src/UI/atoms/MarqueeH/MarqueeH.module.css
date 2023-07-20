@@ -41,3 +41,34 @@
     0% {transform: translateX(0%) }
     100% {transform: translateX(-100%) }
 }
+@media (max-width: 1024px){
+    .marquee_textH{
+        font-size: 59px;
+        min-height: 79px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .marqueeH{
+        width: 72%;
+    }
+
+    .marquee_textH{
+        font-size: 60px;
+        min-height: 62px;
+
+    }
+}
+
+@media (max-width: 425px){
+    .marqueeH{
+        width: 62%;
+    }
+    
+    .marquee_textH{
+        font-size: 48px;
+        min-height: 60px;
+
+    }
+}

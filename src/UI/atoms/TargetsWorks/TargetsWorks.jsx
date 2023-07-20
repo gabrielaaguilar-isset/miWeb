@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from './TargetsWorks.module.css'
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const TargetsWorks = () => {
     const [works, setWorks] = useState();
@@ -48,7 +49,7 @@ const TargetsWorks = () => {
                                 </div>
 
                                 <div className={styles.targetTittle_container}>
-                                    <h2 className={`${styles.tartetTittle_h2 } whiteUnderlined`}>{content.nameProject}</h2>
+                                    <h2 ><Link to={content.url} target="_blank" className={`${styles.tartetTittle_h2 } whiteUnderlined`}>{content.nameProject}</Link></h2>
                                 <span className={`${styles.tartetTittle_point} purpleUnderlined`}>&nbsp; &bull;</span>
                                     <p className={`${styles.tartetTittle_p} whiteUnderlined`} >{content.type}</p>
                                 </div>

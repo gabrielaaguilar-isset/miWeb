@@ -46,12 +46,12 @@ export const Header = () => {
         </div>
         <div className={`${styles.Header__navBar} ${animate ? styles.Header__navBar_animate : ''}`}>
             <Link to="/" className={`${styles.Header__enlaces} purpleUnderlined`}>Inicio</Link>
-            <Link to="/" className={`${styles.Header__enlaces} purpleUnderlined`}>Sobre Mi</Link>
-            <Link to="/" className={`${styles.Header__enlaces} purpleUnderlined`}>Trabajos y Proyectos</Link>
-            <span onClick={() => setAnimate(!animate)} className={styles.Header__btnMobile}>Close</span>
+            <Link to="/#" className={`${styles.Header__enlaces} purpleUnderlined`}>Sobre Mi</Link>
+            <Link to="/#" className={`${styles.Header__enlaces} purpleUnderlined`}>Trabajos y Proyectos</Link>
+            <span onClick={() => setAnimate(!animate)} className={styles.Header__btnMobile}>Cerrar</span>
 
         </div>
-        <span onClick={() => setAnimate(!animate)} className={styles.Header__btnMobile}>Open</span>
+        <span onClick={() => setAnimate(!animate)} className={styles.Header__btnMobile}><img src="/menu.png" className={styles.menuIcon}/></span>
 
         
       </nav>

@@ -12,8 +12,8 @@ export const Footer = () => {
         <hr className={styles.hrFooter} />
         <div className={styles.footer__final}>
             <div >
-                <Link to="https://www.linkedin.com/in/gabriela-aguilar01/" className={`${styles.socialMedia}  purpleUnderlined` }>Linkedin</Link>
-                <Link to="#" className={`${styles.socialMedia}  purpleUnderlined` }>Email</Link>
+                <Link to="https://www.linkedin.com/in/gabriela-aguilar01/" target="_blank" className={`${styles.socialMedia}  purpleUnderlined` }>Linkedin</Link>
+                <Link to="mailto:contacto.gabriela.aguilar@gmail.com" target="_blank" className={`${styles.socialMedia}  purpleUnderlined` }>Email</Link>
             </div>
             <div >
                 <p className={`${styles.footer__copyr} purpleUnderlined`}>Gabriela Aguilar © {actualYear}</p>

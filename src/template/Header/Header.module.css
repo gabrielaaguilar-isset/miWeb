@@ -175,7 +175,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
-  background-color: #11151deb;
+  background-color: #11151d69;
   border-radius: 15px;
   transition: .6s;
   /* box-shadow: 0 8px 32px 0 #11151d; */
@@ -213,5 +213,13 @@
     transition: .5s;
     background-color: #11151de6;
     backdrop-filter: blur(69px);
+  }
+}
+.menuIcon {
+  width: 41px;
+}
+@media (max-width: 430px){
+  .Header__logo{
+    width: 22%;
   }
 }

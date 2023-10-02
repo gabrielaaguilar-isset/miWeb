@@ -1,0 +1,52 @@
+.Cursor_outline{
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--white-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    mix-blend-mode:difference;
+    z-index: 44;
+}
+.Cursor{
+    width: 10px;
+    height: 10px;
+    background-color: var(--white-color);
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none; 
+    transition: 1s;
+}
+
+
+
+p:hover ~ .Cursor{
+    transform: scale(5);
+}
+h1:hover ~ .Cursor{
+    transform: scale(5);
+}
+h2:hover ~ .Cursor{
+    transform: scale(5);
+}
+h3:hover ~ .Cursor{
+    transform: scale(5);
+}
+h4:hover ~ .Cursor{
+    transform: scale(5);
+}
+h5:hover ~ .Cursor{
+    transform: scale(5);
+}
+h6:hover ~ .Cursor{
+    transform: scale(5);
+}
+a:hover ~ .Cursor{
+    transform: scale(5);
+}
+
+ul li:hover ~ .Cursor{
+    transform: scale(5);
+}

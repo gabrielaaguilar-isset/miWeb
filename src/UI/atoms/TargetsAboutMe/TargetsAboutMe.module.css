@@ -22,6 +22,7 @@
     flex-direction: column;
     min-width: 350px;
     overflow: hidden;
+    margin-bottom: 35px;
     
 }
 .TargetsAboutMe_credenciales{
@@ -35,3 +36,64 @@
     font-weight: 400;
 }
 
+
+.ButtonsCards{
+    z-index: 444;
+ 
+}
+
+.ButtonsCards img{
+    width: 47px;
+}
+.buttonAnterior{
+    transform: scaleX(-1);
+}
+.ButtonsCards button{
+    background-color: #ff000000;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+@media (max-width: 435px){
+    .TargetsAboutMe_targets {
+        min-width: 310px;
+        min-height: 222px;
+        padding: 64px 10px;
+        margin-bottom: 64px;
+
+    }
+    .ButtonsCards{
+        z-index: 444;
+        margin-top: -56px;
+    }
+    
+   
+}
+
+@media (max-width: 410px){
+    .TargetsAboutMe_targets {
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 380px){
+    .TargetsAboutMe_targets {
+        min-width: 260px;
+    }
+}
+
+@media (max-width: 380px){
+    .TargetsAboutMe_targets {
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 380px){
+    .TargetsAboutMe_targets {
+        min-width: 210px;
+    }
+}

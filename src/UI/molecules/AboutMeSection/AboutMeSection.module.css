@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-
     background-color: var(--purple-color);
     padding: 100px 40px 0 40px;
     border-radius: 10px;
@@ -58,4 +57,45 @@
     .AboutMeSection__ContentImages {
         padding: 0 50px;
     }
+}
+@media (max-width:912px){
+    .AboutMeSection{
+        width: 85%;
+    }
+   
+}
+@media (max-width:768px){
+    .AboutMeSection{
+        width: 85%;
+    }
+    .img_items {
+        width: 40px;
+    }    
+    .gabyImg{
+        margin-right: -51px;
+    }
+}
+@media (max-width:430px){
+    .AboutMeSection{
+        width: 100%;
+        margin-top: 25px;
+        padding: 26px 20px 0 20px;
+    }
+    .AboutMeSection__Description{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .AboutMeSection__DescriptionText{
+        width: 100%;
+    }    
+    .AboutMeSection__ContentImages{
+       width: 100%;
+       min-height: auto;
+       margin-top:25px ;
+       padding: 0;
+       gap: 17px;
+
+    }    
+  
 }

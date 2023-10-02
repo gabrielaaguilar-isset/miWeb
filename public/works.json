@@ -2,19 +2,19 @@
     {
         "id":1,
         "teconologias": [
-            "wordpress,  ",
-            "css,  ",
-            "javascript"
+            "PROXIMAMENTE "
+
         ],
         "nameProject": "Adri Capon",
-        "img_Proyect": "blog-del-rebobinador.png",
+        "img_Proyect": "adricapon.png",
         "type": "Landing Page",
         "finish": false,
         "teconologias_fotos": [
             "wordpress.png",
             "css.png",
             "javascript.png"
-        ]
+        ],
+        "url": false
     },
     {
         "id":2,
@@ -24,14 +24,15 @@
             "javascript"
         ],
         "nameProject": "Mauri Corparation",
-        "img_Proyect": "blog-del-rebobinador.png",
+        "img_Proyect": "mauricorp.png",
         "type": "Corporate Website",
         "finish":true,
         "teconologias_fotos": [
             "wordpress.png",
             "css.png",
             "javascript.png"
-        ]
+        ],
+        "url": "https://mauricorp.com"
     },
     {
         "id":3,
@@ -48,6 +49,7 @@
             "wordpress.png",
             "css.png",
             "javascript.png"
-        ]
+        ],
+        "url": "https://blogdelrebobinador.com"
     }
 ]

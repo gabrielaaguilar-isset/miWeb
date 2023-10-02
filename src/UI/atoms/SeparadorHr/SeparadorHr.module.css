@@ -18,13 +18,13 @@
 }
 @media (max-width: 1024px){
     .SeparadorHr{
-        padding: 0 50px;
         margin-top: 5px;
     }
 
 }
 @media (max-width: 786px){
     SeparadorHr{
+        padding: 0 50px;
         margin-top: -4px;
     }
 }

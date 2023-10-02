@@ -5,6 +5,23 @@
             "PROXIMAMENTE "
 
         ],
+        "nameProject": "Store Mauricorp",
+        "img_Proyect": "store.mauricorp.png",
+        "type": "B2B Woocommerce",
+        "finish": false,
+        "teconologias_fotos": [
+            "wordpress.png",
+            "css.png",
+            "javascript.png"
+        ],
+        "url": false
+    },
+    {
+        "id":2,
+        "teconologias": [
+            "PROXIMAMENTE "
+
+        ],
         "nameProject": "Adri Capon",
         "img_Proyect": "adricapon.png",
         "type": "Landing Page",
@@ -17,7 +34,7 @@
         "url": false
     },
     {
-        "id":2,
+        "id":3,
         "teconologias": [
             "wordpress,  ",
             "css,  ",
@@ -35,7 +52,7 @@
         "url": "https://mauricorp.com"
     },
     {
-        "id":3,
+        "id":4,
         "teconologias": [
             "wordpress,  ",
             "css,  ",
@@ -51,5 +68,23 @@
             "javascript.png"
         ],
         "url": "https://blogdelrebobinador.com"
+    },
+    {
+        "id":5,
+        "teconologias": [
+            "wordpress,  ",
+            "css,  ",
+            "javascript"
+        ],
+        "nameProject": "Travnow",
+        "img_Proyect": "travnow.png",
+        "type": "Landing Page",
+        "finish":true,
+        "teconologias_fotos": [
+            "wordpress.png",
+            "css.png",
+            "javascript.png"
+        ],
+        "url": "https://projects.gabrielaaguilar.link/travnow/"
     }
 ]
